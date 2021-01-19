@@ -20,3 +20,7 @@ test('Return error if a object is passed', () => {
   expect(capitalize({name:"marcelo"})).toBe("Only strings are allowed");
 });
 
+test('Verify if an all capital string is converted first character capitalized', () => {
+  expect(capitalize('MARCELO')).toBe("Marcelo");
+})
+
