@@ -5,5 +5,18 @@ test('Capitalize a string', () => {
 });
 
 test('Verify if input is a string', () => {
-  expect(capitalize(1)).toBe("only strings are allowed");
+  expect(capitalize(1)).toBe("Only strings are allowed");
 })
+
+test('Verify if input is empty', () => {
+  expect(capitalize("")).toBe("String length should be at least 1");
+})
+
+test('Capitalize a unique character', () => {
+  expect(capitalize("a")).toBe("A");
+});
+
+test('Return error if a object is passed', () => {
+  expect(capitalize({name:"marcelo"})).toBe("Only strings are allowed");
+});
+

@@ -1,6 +1,8 @@
 const capitalize = (string) => {
   if (typeof(string) !== 'string')
-    return "only strings are allowed"
+    return "Only strings are allowed"
+  else if (string.trim() === '')
+    return "String length should be at least 1"
   else
     return string[0].toUpperCase() + string.slice(1)  
 }
