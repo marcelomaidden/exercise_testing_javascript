@@ -14,7 +14,7 @@
 
 ## Live Link Demo
 
-[Live Link Demo](https://marcelomaidden.github.io/exercise_testing_javascript/)
+[Live Link Demo](https://repl.it/@marcelomaidden/exercisetestingjavascript)
 
 ## Built With
 
